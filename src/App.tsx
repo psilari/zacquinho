@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import zacefron from "./assets/zacefron.jpg";
+import "./App.css";
+import getRandomValue from "./util/getRandomValue";
 
 function App() {
+  const { Howl } = require("howler");
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const sound = new Howl({
+    src: [getRandomValue()],
+  });
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+    sound.play();
+    sound.on("end", function () {
+      setIsPlaying(false);
+    });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Fale com Zacquinho</h1>
+      <button className="button-img" disabled={isPlaying} onClick={() => handlePlay()}>
+        <img
+          className="button-img"
+          src={zacefron}
+          alt="Zacquinho"
+          width="500"
+          height="600"
+          style={{ cursor: "pointer" }}
+          // style={{ borderRadius: 50 }}
+        />
+      </button>
     </div>
   );
 }
