@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/zacquinho/static/css/main.b2c1adf4.css",
+    "main.js": "/zacquinho/static/js/main.f4767a5a.js",
+    "static/js/787.47aa4e40.chunk.js": "/zacquinho/static/js/787.47aa4e40.chunk.js",
+    "static/media/zac5.mp3": "/zacquinho/static/media/zac5.1e52f0c305fb84333a94.mp3",
+    "static/media/zacefron.jpg": "/zacquinho/static/media/zacefron.c27a9210fb36bdd5e3cd.jpg",
+    "static/media/zac1.mp3": "/zacquinho/static/media/zac1.f4c1abc9a03da2f4fb18.mp3",
+    "static/media/zac4.mp3": "/zacquinho/static/media/zac4.21b12d983e16db18d7af.mp3",
+    "static/media/zac7.mp3": "/zacquinho/static/media/zac7.ab415c86e8a2449c840f.mp3",
+    "static/media/zac3.mp3": "/zacquinho/static/media/zac3.c48e978b4a923c3c2b0d.mp3",
+    "static/media/zac2.mp3": "/zacquinho/static/media/zac2.a7bf4b15a941d1ae7a50.mp3",
+    "static/media/zac11.mp3": "/zacquinho/static/media/zac11.9aa140b31a5879674300.mp3",
+    "static/media/zac12.mp3": "/zacquinho/static/media/zac12.2a03b7a0adbcb0bed4ef.mp3",
+    "static/media/zac8.mp3": "/zacquinho/static/media/zac8.af5fe21f2f59611d6578.mp3",
+    "static/media/zac9.mp3": "/zacquinho/static/media/zac9.a1c96ab7e3f9d433a3f7.mp3",
+    "static/media/zac10.mp3": "/zacquinho/static/media/zac10.1dbbc5c884e2afcfbb53.mp3",
+    "static/media/zac6.mp3": "/zacquinho/static/media/zac6.8c8bbb2732b365f75d03.mp3",
+    "index.html": "/zacquinho/index.html",
+    "main.b2c1adf4.css.map": "/zacquinho/static/css/main.b2c1adf4.css.map",
+    "main.f4767a5a.js.map": "/zacquinho/static/js/main.f4767a5a.js.map",
+    "787.47aa4e40.chunk.js.map": "/zacquinho/static/js/787.47aa4e40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2c1adf4.css",
+    "static/js/main.f4767a5a.js"
+  ]
+}
